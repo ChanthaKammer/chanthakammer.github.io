@@ -1,0 +1,72 @@
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    background-image: url(../image/abstractPic.jpg);
+    background-size:cover;
+}
+h1 {
+    font-family: 'ubuntu', "Times New Roman", serif;
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    font-family:"Arial", "Helvetica", sans-serif;
+}
+nav {
+    width: 175px;
+    background-color:#E7DBF6;
+    float: left;
+}
+article {
+    margin-left: 175px;
+    background-color: white;
+    padding: 10px;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    font-family:"Arial", "Helvetica", sans-serif;
+}
+.peace{
+    list-style-image: url(../image/peaceSign.png);
+}
+/*Span*/
+.fonts {
+    color: orange;
+    font-family: "Comic Sans MS", "Times New Roman", serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.colors {
+    color: red;
+    font: bold;
+}
+.more {
+    color: blue;
+    text-decoration: underline;
+    border: 1px, dashed, gray;
+    background-color: #D69BBE
+}
+.backgrounds {
+    color: green;
+    font: "Trebuchet MS", "Times New Roman", serif;
+    font-size: 1.25em;
+}
+/*Main*/
+#outerwrapper{
+    width: 650px;
+    background-color: #E7DBF6;
+    margin-left:auto;
+    margin-right:auto;
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/ubuntu-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-r-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
