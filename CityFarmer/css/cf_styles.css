@@ -1,0 +1,51 @@
+body {
+	background-color: #B8D1EB;
+	text-color: #000000;
+	font-family: 'Times New Roman', Times, serif
+}
+h1 {
+	font-family: Ubuntu, Georgia, serif;	
+	font-size: 35px;
+}
+h2 {
+	font-family: 'ubuntu';
+    src: url('../font/playfairdisplaysc-italic-webfont.woff') format('woff'),
+    	url('../font/playfairdisplaysc-italic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+#navul {
+	list-style-type: none;
+}
+#tomato{
+	list-style-image: url(../image/tomato.png);
+}
+#outerwrapper {
+	width : 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+
+main{ 
+	clear: both;
+	background-color: #C5A98B;
+	padding:10px;
+}
+footer{
+	text-align:center;
+	background-color:brown;
+	font-size: 0.75em;
+	padding: 10px;
+}
+
+ /* at nav removing bullet points */
