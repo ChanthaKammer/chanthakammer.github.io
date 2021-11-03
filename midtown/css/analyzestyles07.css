@@ -1,0 +1,93 @@
+/* Style sheet created by: Chantha Kammer 11/3/21*/
+
+main {
+	padding: 1em;
+	background-color: #ffffff;
+}
+
+/* Style for body specifies a background color */
+body {
+	background-color: #ffffff;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#title {
+	font-family: Verdana, Arial, sans-serif;
+	color: #4E9657;
+	font-size: 50px
+}
+#arrival {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex; 
+	height: 70px;
+	border-radius: 35px;
+	background-color: green;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #4E9657;
+	padding: 0.5%;
+	margin-left: 1%;
+	font-size: 3em;
+}
+
+/* Style for the nav element */
+nav {
+	padding: 0.5%;
+}
+
+/* Style for the nav list item elements */
+nav li {
+	display: inline;
+}
+
+/* Style for the nav links element */
+nav li a {
+	color: #4E9657;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+}
+/* Style for the table */
+table{
+  width: 100%;
+  padding-bottom:15px;
+}
+td, th {
+	border: 1px solid black;
+}
+footer {
+	text-align: center;
+	font-size:0.70em;
+}
+aside {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex; 
+	height: 70px;
+	border-radius: 35px;
+	background-color: green;
+	color:white;
+	font-size:20px;
+}
+article {
+	padding: 1em;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 12px;
+	border-color:#4E9657;
+}
+h3 {
+	text-align: center;
+}
