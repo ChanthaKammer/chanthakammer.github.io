@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    background-image: linear-gradient(to left,#25da2e, #123EDF, lightgreen);
+    text-align:center;
+}
+div {
+    padding: 1em;
+}
+td, th{
+    font-weight: bold;
+    border: 1px solid green;
+    text-align: center;
+}
+caption {
+    color:white;
+    font-size: 30px;
+    padding: 1em;
+}
+tfoot {
+    text-align: center;
+    background-color: white;
+}
+table:hover {
+    background-color:grey;
+}
+.table {
+    width:100%;
+    background-color:white;
+}
+.border-gradient {
+    border: 10px solid;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, red, white, blue);
+    border-image-slice: 1;
+}
