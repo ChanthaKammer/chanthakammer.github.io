@@ -1,0 +1,64 @@
+
+/*Chantha Kammer */
+html {
+	background-image: url('../img/jewelry.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+div {
+	border-style: none;
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin: 0 auto;
+}	
+main {
+	background-image: linear-gradient(to left, #FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1em;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+footer {
+	padding: 10px;
+	font-size: 1em;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	font-size: 1.5em;
+}
+nav {
+	float: none;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+h2 {
+	text-align: left;
+	font-family: 'rubik', Arial, Helvetica, sans-serif;
+}
+#necklace {
+	border-style: none;
+	border-radius: 50%;
+	float:left;
+} 
+.addrightmargin {
+	margin-right: 10%;
+}
+#outerwrapper{	
+	border-style: none 0px;
+	background: rgba(243,205,170, 0.4);
+	/*Wasn't able to connect this to the div, the ID was not working*/
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/rubik-blackitalic-webfont.woff') format('woff'),
+         url('../fonts/rubik-blackitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
