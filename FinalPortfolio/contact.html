@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Final Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my final portfolio.">
+    <meta name="keywords" content="Final, Portfolio">
+    <meta name="author" content="Chantha Kammer">   
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <a href=index.html><img src="images/svg/ck.svg" alt="Minecraft Avatar Face" width="100px"></a>
+        <div>
+            <nav>
+            <div>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=experience.html>Work Experience</a></li>
+                <li><a href=hobbies.html>Hobbies</a></li>
+                <li><a href=contact.html style = "color:tan">Contact</a></li>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <p class = "rectangle tanrec">Want to reach out and get in contact with me?
+                <br> Use the form below to reach me by email.
+            </p>
+        </div>
+        <div class = "rectangle tanrec">
+            <form action="mailto:chanthakammer@my.cwi.edu?subject=Personal Portfolio Mail" enctype="text/plain" method="POST">
+                <label for="company">Company / Name:</label><br> 
+                <input type="text" name="compName" size="30" id="company"><br>
+                
+                <label for="contact">Reason for contact:</label><br>
+                <select name="Reasons" id="contact">
+                    <optgroup label="Jobs">
+                      <option value="internships">Internships</option>
+                      <option value="joboffers">Job Offers</option>
+                    </optgroup>
+                    <optgroup label="Personal">
+                      <option value="questions">Questions</option>
+                      <option value="peerReview">Peer Review</option>
+                    </optgroup>
+                </select>
+                <p>How should I respond? If you want to be texted, please type your number in the comments.</p>
+                <input type="radio" id="text" name="respond" value="Text">
+                <label for="Text">Text</label><br>
+                <input type="radio" id="email" name="respond" value="Email">
+                <label for="email">Email</label><br>
+                <!--<input type="submit" name="contactReason" size="30" id="contact">--><br>
+                
+                <label for="comment">Enter your comments:</label><br>
+                <textarea cols="100" rows="10" name="comment"></textarea><br><br>
+                
+                <input type="submit" id="submit" value="Submit" class="btn">
+                <input type="reset" value="Reset">
+             </form>
+        </div>
+    </main>
+    <footer>
+        <div class = "rectangle whiterec">
+            <a><img src="images/img/github.png" alt="Github Icon" style= "float:left"></a>
+            <a><img src="images/img/linkedin.png" alt="LinkedIn Icon" style= "float:left"></a>
+        </div>
+    </footer>
+</body>
+</html>
