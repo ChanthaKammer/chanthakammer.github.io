@@ -123,5 +123,5 @@ p {
     padding-left: 1em;
 }
 #customfont {
-    font-family: 'kaushanscript';
+    font-family: 'kaushanscript', "Times New Roman", sans-serif;;
 }
