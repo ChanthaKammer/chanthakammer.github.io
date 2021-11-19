@@ -1,0 +1,120 @@
+/*Chantha Kammer 11/19/2021*/
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+main ul li{
+	list-style-image: url(../images/yogabullet.png);
+	margin-left: 3em;
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: 0.5em;
+	width: 100%;
+}
+address {
+	margin-bottom: 0.5em;
+}
+
+/*table styling*/
+.schedule {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+/*Tablet/Mobile Styling. Breakpoint is at 641 Pixels.*/
+
+/*************************** Mobile ***************************/
+@media screen and (max-width:641px) {
+	header {
+		background-image: none;
+	}
+	body {
+		background-image: url(../images/yogamobile.png);
+	}
+	nav ul li {
+		list-style-type: disc;
+		display: block;
+	}
+	nav {
+		display: block;
+	}
+	h2 {
+		display: none;
+	}
+	img {
+		display: none;
+	}
+	footer 
+	{ 
+		text-align: center;
+		width: 100%;
+	}
+	}
+	
+	
+	/*************************** Tablet ***************************/	
+@media screen and (min-width:641px) {
+	body {
+		background-size: auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: #F5F5F5;
+	}
+	nav ul li {
+		display: inline;
+		list-style-type: none;
+	}
+	footer {
+		display: inline;
+		position: absolute;
+		bottom: 0;
+	}
+	.responsive { /*My book is on my computer at home, I tried my best here*/
+		width: 100%;
+		height: auto;
+	}
+}
+
+
