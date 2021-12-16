@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: white;
+}
+
+body{
+    background: linear-gradient(338deg, #edb037, #c99e32, #a96b1b);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 45s ease infinite;
+    -moz-animation: AnimationName 45s ease infinite;
+    animation: AnimationName 45s ease infinite;
+}
+
+textarea {
+    background-color:gray;
+    border-radius: 2%;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+table {
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+
+nav {
+    font-family: 'Lora', Arial, sans-serif
+}
+
+nav, footer {
+    opacity: .8;
+    font-family: 'Lora', Arial, sans-serif
+}
+
+main {
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+td a{
+    text-decoration: none;
+    color:purple;
+}
+
+.carousel {
+    padding-top: 1em;
+}
+
+.card-img-top {
+    width:100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/*Mobile CSS*/
+
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+      max-width: 720px;
+    }
+    div {
+      justify-content: center;  
+    }
+  }
