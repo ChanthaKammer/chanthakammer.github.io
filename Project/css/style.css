@@ -1,0 +1,38 @@
+/*----------------------------------------------------------------------------------------------------------------
+--
+#Original Author:   Chantha Kammer #
+#Date Created:      1/21/2022      #
+#Version:           0.1            #
+#Date Last Modified:1/21/2022      #
+#Modified by:       Chantha Kammer #
+#Modification log:                 
+    Version 0.1 - 1/21/2022 - Placeholder CSS | Need more JS knowledge to implement classes through JS
+------------------------------------------------------------------------------------------------------------------*/
+
+html {
+    background-image: url("../images/desktop-background.jpeg");
+}
+
+h1 {
+    color:magenta;
+}
+
+.heading {
+    color: white;
+}
+
+#welcome {
+    color:white;
+    font-size: large;
+}
+
+p {
+    color: white;
+}
+
+/*Customizing MaterializeCSS*/
+.waves-effect.waves-green .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(60, 255, 0, 0.65);
+   }

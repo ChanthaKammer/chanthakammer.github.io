@@ -1,0 +1,1 @@
+These are mostly placeholder images, I need to review my Adobe Illustrator skills. All images are from pexels.com
