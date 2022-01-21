@@ -17,5 +17,5 @@ const username = prompt("Please enter your name.");
 too advanced for the javascript that we have learned so far.
 I don't want to do it incorrectly so a plain H1 element will
 have to do for now. */
-const html = "<h1> Welcome, " + username + "</h1>"; 
+const html = "<h1> Welcome, " + username + ".</h1>"; 
 document.write(html);
