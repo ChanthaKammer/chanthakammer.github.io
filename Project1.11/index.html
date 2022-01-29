@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author:   Chantha Kammer #
+#Date Created:      1/21/2022      #
+#Version:           0.1            #
+#Date Last Modified:1/29/2022      #
+#Modified by:       Chantha Kammer #
+#Modification log:                 
+    Version 0.1 - 1/21/2022 - Added Materialize, placeholder css, created name.js and start.js
+    Version 0.11 - 1/29/2022 - Attempted to add JS components multiple problems, see Readme.txt
+------------------------------------------------------------------------------------------------------------------>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite Coaching</title>
+    <meta name="author" content="Chantha Kammer" />
+    <meta name="description" content="Elite Coaching" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Materialize CSS -->
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <nav>
+        <div class="nav-wrapper purple">
+          <a href="index.html" class="brand-logo center">
+              <img alt="logo" src="images/headerimg.png" width="50" height="50">
+          </a>
+          <ul class="right">
+            <li><a href="#.html">Pricing</a></li>
+            <li><a href="#.html">Games</a></li>
+          </ul>
+        </div>
+    </nav>
+    <main>
+      <div class = "center">
+          <h1 class = "heading">Elite Coaching</h1>
+          <script src="js/nama.js"></script> <!--DONT FORGET TO RENAME-->
+          <p id = "welcome">Welcome to Elite Coaching, the fastest and most effective way to become
+              unstoppable on any virtual battlefied.
+          </p>
+          <a class="waves-effect orange waves-green btn-large" href="faqs.html">Book Now</a>
+      </div>
+      <div id="faqs">
+          <h1>Frequently Asked Questions</h1>
+        <h2><a href="#">Why Elite Coaching?</a></h2>
+        <div>
+          <p>Our coach has over 10,000 hours playing FPS games alone. From Modern
+            Warfare: Search and Destroy, to Counter Strike Global Offensive. 
+          </p>
+        </div>
+        <h2><a href="#">Who's the coach?</a></h2>
+        <div>
+          <p>My name is Chantha! I have been playing FPS games for over 10 years. My first favorite videogame was Minecraft.
+            I first got it back in 2010 when Notch was only charging $10 for a copy! The gaming industry
+            since then has grown into something much more than I'm sure any of the early game creators
+            imagined. Currently my favorite game to play is Counter Strike: Source, but only surfing.
+            Surfing has been a hobbie of mine for 6 years, and I first started in Team Fortress 2.
+          </p>
+        </div>
+        <h2><a href="#">Why are you offering coaching?</a></h2>
+        <div>
+          <p>I remember first starting Search and Destroy in Modern Warfare 2019 and 
+            my friends making fun of me for being bad. So I played tens of hours of it 
+            alone while offline in order to catch up. Along the way I met many talented players
+            that played about the skill level that my friends had. Thanks to skill-based matchmaking
+            I was always playing with players that rivaled many of the top COD League players.
+            I got great, and I imagine had I played only with my friends, I wouldn't have become so good.
+            If you are just as much of an introvert as I am, it's hard to reach out to other players
+            in the lobby to ask to play with them. That's why I'm here. 
+          </p>
+        </div>
+        <h2><a href="#">What teaching methods do you use?</a></h2>
+        <div>
+          <p>Surprisingly, meditation is one of the methods I used to increase my skill at such a rapid pace.
+            If you've ever heard of the flow state, I trained myself to be in it while I was playing. It is important
+            to shut out whatever thoughts you have in your head and focus on the present moment.
+            Whether it takes 15 minutes, or 15 weeks, I want you to become the best version of yourself on
+            the battlefield.
+          </p>
+        </div>
+      </div>
+      <script src="js/faqs.js"></script>
+      <h1 class="center">News Letter Signup</h1>
+      <form action="confirm.html" method="get">
+        <div>
+            <label for="email_address">E-Mail:</label>
+            <input type="text" name="email_address" id="email_address">
+            <span>*</span>
+        </div>
+        <div>
+            <label for="phone">Mobile Phone:</label>
+            <input type="text" name="phone" id="phone">
+            <span>*</span>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="">Select a country</option>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+            </select>
+            <span>*</span>
+        </div>
+        <div>
+            <label>Contact me by:</label>
+            <input type="radio" name="contact" id="text"
+                value="text" checked>Text
+            <input type="radio" name="contact" id="email"
+                value="email">Email
+        </div>
+        <div>
+            <label>Terms of Service:</label>
+            <input type="checkbox" name="terms" id="terms"
+                value="yes">I accept
+            <span>*</span>
+        </div>
+        <div>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" row="5" cols="40"></textarea>
+            <span>*</span>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="register" value="Register">
+            <input type="button" id="reset_form" value="Reset">
+        </div>
+    </form>
+    <script src="js/register.js"></script>
+    </main>            
+  </body>
+</html>
