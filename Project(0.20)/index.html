@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author:   Chantha Kammer #
+#Date Created:      1/21/2022      #
+#Version:           0.1            #
+#Date Last Modified:2/11/2022       #
+#Modified by:       Chantha Kammer #
+#Modification log:                 
+    Version 0.1 - 1/21/2022 - Added Materialize, placeholder css, created name.js and start.js
+    Version 0.11 - 1/29/2022 - Attempted to add JS components multiple problems, see Readme.txt
+    Version 0.15 - 2/5/2022 - Succesfully added some JS components! See readme.txt for reflection
+    Version 0.2 - 2/11/2022 - Added requests, added bxslider, added pricing page! See readme.txt for reflection
+------------------------------------------------------------------------------------------------------------------>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite Coaching</title>
+    <meta name="author" content="Chantha Kammer" />
+    <meta name="description" content="Elite Coaching" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Materialize CSS -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>       
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+				
+  </head>
+  <body>
+    <nav>
+        <div class="nav-wrapper grey">
+          <a href="index.html" class="brand-logo center">
+              <img alt="logo" src="images/headerimg.png" width="50" height="50">
+          </a>
+          <ul class="right">
+            <li><a href="newsletter.html">News Letter</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="requests.html">Requests</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+    </nav>
+    <main>
+      <div class = "center">
+          <h1 class = "heading purple-text">Elite Coaching</h1>
+          <script src="js/nama.js"></script> <!--DONT FORGET TO RENAME-->
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LlHkCAcOmiA" frameborder="0" allow="autoplay" ></iframe>
+            <!-- This is a placeholder video -->
+          </div>
+          <p id = "welcome">Welcome to Elite Coaching, the fastest and most effective way to become
+              unstoppable on any virtual battlefied.
+          </p>
+          <a class="waves-effect orange waves-green btn-large" href="faqs.html">Book Now</a>
+          <div class = "container">
+            <p>Today is:</p>
+            <p id="currentDate" class = "green-text"></p>  
+            <p>Scheduling opens on: </p>
+            <p id="targetDate" class = "purple-text"></p>
+          </div>
+      </div>
+      </div>
+      <h1 class = "center light-blue-text">Frequently Asked Questions</h1>
+      <div id="accordionGroup" class = "center-align">
+        <h3>Why Elite Coaching?</h3>
+        <div>Our coach has over 10,000 hours playing FPS games alone. From Modern
+          Warfare: Search and Destroy, to Counter Strike Global Offensive. </div>
+        <h3>Who's the coach?</h3>
+        <div>My name is Chantha! I have been playing FPS games for over 10 years. My first favorite videogame was Minecraft.
+          I first got it back in 2010 when Notch was only charging $10 for a copy! The gaming industry
+          since then has grown into something much more than I'm sure any of the early game creators
+          imagined. Currently my favorite game to play is Counter Strike: Source, but only surfing.
+          Surfing has been a hobbie of mine for 6 years, and I first started in Team Fortress 2.</div>
+        <h3>Why are you offering coaching?</h3>
+        <div>I remember first starting Search and Destroy in Modern Warfare 2019 and 
+          my friends making fun of me for being bad. So I played tens of hours of it 
+          alone while offline in order to catch up. Along the way I met many talented players
+          that played about the skill level that my friends had. Thanks to skill-based matchmaking
+          I was always playing with players that rivaled many of the top COD League players.
+          I got great, and I imagine had I played only with my friends, I wouldn't have become so good.
+          If you are just as much of an introvert as I am, it's hard to reach out to other players
+          in the lobby to ask to play with them. That's why I'm here. </div>
+          <h3>What teaching methods do you use?</h3>
+        <div>Surprisingly, meditation is one of the methods I used to increase my skill at such a rapid pace.
+          If you've ever heard of the flow state, I trained myself to be in it while I was playing. It is important
+          to shut out whatever thoughts you have in your head and focus on the present moment.
+          Whether it takes 15 minutes, or 15 weeks, I want you to become the best version of yourself on
+          the battlefield. </div>
+      </div>
+      <script>
+        $("#accordionGroup").accordion({
+          "collapsible": true,
+        });
+      </script>
+      </div>
+    </main>            
+  </body>
+  <script src="js/currentdate.js"></script> 
+</html>
