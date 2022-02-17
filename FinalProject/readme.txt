@@ -1,0 +1,15 @@
+Decided to cut my losses with this one. Trying to write the code by myself proved too difficult for me. Better to get some points rather than none.
+I assume there are some problems with styles from materialize being interrupted by my css. My imposter syndrome is getting pretty bad, I don't want to suffer any longer
+this weekend, didn't sleep much last night because of it. Spending time in tutoring helped me a lot last semester, so when a tutor becomes available for 
+this class I will be taking advantage of that. On a happier note I have clips from my favorite videogames that I will add to my gallery, it was nice going down memory lane.
+Going to be working on this a lot this week, also going to cut down on my job hours.  
+
+-2/5/2022-
+
+I finally got some of the things working! Even if they are plugins, it was great getting things working. Still a very rough looking website, but I'm proud of what I have.
+It's going to be nice having a tutor, that is what helped me the most last semester. Even if it's next block I'm really looking forward to meeting them.
+
+-2/11/2022-
+
+Added more pages. Throughout this weekend I will compile a better trailer video for the website. Everything is going smoothly, looking forward to the feedback. I need help 
+with the regex but everything else is added.

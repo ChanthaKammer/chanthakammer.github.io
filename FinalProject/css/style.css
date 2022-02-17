@@ -1,0 +1,148 @@
+/*----------------------------------------------------------------------------------------------------------------
+--
+#Original Author:   Chantha Kammer #
+#Date Created:      1/21/2022      #
+#Version:           0.1            #
+#Date Last Modified:1/29/2022      #
+#Modified by:       Chantha Kammer #
+#Modification log:                 
+    Version 0.1 - 1/21/2022 - Placeholder CSS | Need more JS knowledge to implement classes through JS
+------------------------------------------------------------------------------------------------------------------*/
+
+html {
+    /*background: linear-gradient(144deg, rgba(63,94,251,1) 0%, rgba(70,157,179,1) 40%, rgba(80,252,70,1) 100%);*/
+    background-image: url("../images/pexels-alexander-ant-7031674.jpg");
+    scroll-behavior: smooth;
+}
+
+main {
+    margin:auto;
+	overflow: hidden;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	height: 60%;
+	border-radius: 30px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px);
+}
+
+h1 {
+    color:rgb(42, 189, 47);
+}
+
+.heading {
+    color: white;
+}
+
+#welcome {
+    color:white;
+    font-size: large;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+/*Customizing MaterializeCSS*/
+.waves-effect.waves-green .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(60, 255, 0, 0.65);
+   }
+
+/*For the DropDown*/
+
+h2 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: url(/images/plus.png) no-repeat left center;
+}
+h2.minus {
+    background: url(/images/minus.png) no-repeat left center;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+a:focus, a:hover { 
+	color: blue; 
+}
+
+#faqs {
+    text-align: center;
+}
+
+div.open {
+    display: block;
+}
+ul {
+    padding-left: 45px;
+}
+li {
+    padding-bottom: .25em;
+}
+div p {
+    padding-bottom: .25em;
+    padding-left: 25px;
+    font-size:x-large;
+}
+
+.glassify {
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+	backdrop-filter: blur(5px);
+}
+
+form {
+    background-color: gray;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.button_panel	{
+	height: 125px;
+	padding: 50px 15px;
+	float: left;
+}
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+#display_panel {
+	height: 125px;
+	width: 100px; /*Needed to change this to 100*/
+	overflow: hidden;
+	float: left;
+}
+#image_list {
+	left: 0px;
+	position: relative;   
+    width: 900px;
+    list-style: none;  
+}
+#image_list li	{
+	float: left;
+	width: 100px;
+}
+#image_list li img	{
+	width: 95px;
+}
+
+form {
+    background-color: white;
+    color: blue;
+}
+
+textarea {
+    background-color: white;
+}
+
+#accordionGroup .ui-accordion-content * {
+    background-color: blue;
+}
