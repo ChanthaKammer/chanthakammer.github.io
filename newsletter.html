@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author:   Chantha Kammer #
+#Date Created:      2/5/2022       #
+#Version:           0.1            #
+#Date Last Modified:2/5/2022       #
+#Modified by:       Chantha Kammer #
+#Modification log:                 
+    Version 0.1 - 1/21/2022 - Added Newsletter Page
+------------------------------------------------------------------------------------------------------------------>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite Coaching</title>
+    <meta name="author" content="Chantha Kammer" />
+    <meta name="description" content="Elite Coaching" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Materialize CSS -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>       
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+        <div class="nav-wrapper grey">
+          <a href="index.html" class="brand-logo center">
+              <img alt="logo" src="images/headerimg.png" width="50" height="50">
+          </a>
+          <ul class="right">
+            <li><a href="newsletter.html" class = "blue-text">News Letter</a></li>
+            <li><a href="games.html">Games<span class = "new badge" >4</span></a></li>
+            <li><a href="requests.html">Requests</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+    </nav>
+    <main>
+      <h1 class = "center ">Sign up for our email newsletter!</h1>
+      <div class = "center">
+        <img src = "images/EliteGaming.png" width="700px">
+        <p>We want to provide you with the best service possible! By signing up for our newsletter you will never miss
+          out on special deals or new games! 
+        </p>
+          <form id="email_form" name="email_form" 
+              action="join.html" method="get" class = "gray">
+            <div class = "input-field">
+                <label for="email_1">Email Address:</label>
+                <input type="text" id="email_1" name="email_1">
+                <span class = "red-text">*</span>
+            </div>
+            
+            <div class = "input-field">
+                <label for="email_2">Confirm Email Address:</label>
+                <input type="text" id="email_2" name="email_2">
+                <span class = "red-text">*</span>
+            </div>
+            
+            <div class = "input-field">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+                <span class = "red-text">*</span>
+            </div>
+            
+            <div>
+                <label>&nbsp;</label>
+                <input type="button" id="join_list" value="Join List">
+                <input type="button" id="clear_form" value="Clear Form">
+            </div>     
+            <script src="js/email_list.js"></script>
+        </form>
+      </div>
+    </main>            
+  </body>
